@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "BlackJack.Controllers.DeckController",
+    "Method": "GetGame",
+    "RelativePath": "blackjack",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlackJack.Controllers.DeckController",
+    "Method": "NewGame",
+    "RelativePath": "blackjack",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlackJack.Controllers.DeckController",
+    "Method": "GameAction",
+    "RelativePath": "blackjack/play",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "action",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
